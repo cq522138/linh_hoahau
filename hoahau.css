@@ -1,0 +1,135 @@
+.menu{
+  background: #542670 !important;
+  text-transform: uppercase;
+}
+.menu a{
+  color: #f1f1f1; !important;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  background: rgba(84, 38, 112, 0.7);
+}
+.nav-item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img1{
+  background-image: url("http://hoahauhoanvuvietnam.com/FileStorage/Media/Video/Thumbnail/TOP 3 MUV.jpg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 220px;
+  transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.img2{
+  background-image: url("http://hoahauhoanvuvietnam.com/FileStorage/Media/Video/Thumbnail/09.jpg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 220px;
+  transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.5s;
+   transition: -webkit-transform 0.5s;
+   transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.img3{
+  background-image: url("http://hoahauhoanvuvietnam.com/FileStorage/Media/Video/Thumbnail/0310 layout youtube-01.jpg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 220px;
+  transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.name{
+  margin: 20px 0 20px 0;
+}
+.img1:hover{
+  backface-visibility: hidden;
+  transform: scale(1.15, 1.15);
+  opacity: 1;
+}
+.img2:hover{
+  backface-visibility: hidden;
+  transform: scale(1.15, 1.15);
+  opacity: 1;
+}
+.img3:hover{
+  backface-visibility: hidden;
+  transform: scale(1.15, 1.15);
+  opacity: 1;
+}
+.a1{
+  overflow: hidden;
+}
+.a3{
+  overflow: hidden;
+}
+.a5{
+  overflow: hidden;
+}
+.b:hover {
+  text-decoration: underline;
+  color: white;
+  }
+.b{
+  color: whitesmoke;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+.new{
+  background-color: rgba(84, 38, 112, 0.6);
+}
+.a2{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.img1{
+  position: relative;
+}
+.a4{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.img2{
+  position: relative;
+}
+.a6{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.img3{
+  position: relative;
+}
