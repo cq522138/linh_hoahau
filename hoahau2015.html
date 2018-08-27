@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="hoahau2015.css">
+  <script src="hoahau2015.js"></script>
+
+
+</head>
+<body>
+<div class="row" style="background-color: black">
+  <a href=""><img src="logo.png" height="84" width="156"/></a>
+</div>
+<div class="container">
+  <nav class="menu navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">trang chủ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            lịch trình
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">sơ tuyển ,sơ khảo</a>
+            <a class="dropdown-item" href="#">truyền hình thực tế tại tp.HCM</a>
+            <a class="dropdown-item" href="#">vòng bán kết</a>
+            <a class="dropdown-item" href="#">vòng chung kết</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            HHHV VN 2017
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">đơn vị tổ chức</a>
+            <a class="dropdown-item" href="#">ban giám khảo</a>
+            <a class="dropdown-item" href="#">thể lệ</a>
+            <a class="dropdown-item" href="#">lịch thi</a>
+            <a class="dropdown-item" href="#">giải thưởng</a>
+            <a class="dropdown-item" href="#">đăng ký dự thi</a>
+            <a class="dropdown-item" href="#">giải đáp thắc mắc</a>
+            <a class="dropdown-item" href="#">download hồ sơ</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            ứng viên
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">2015</a>
+            <a class="dropdown-item" href="#">2017</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">tin tức <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            thư viện
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">thư viện ảnh</a>
+            <a class="dropdown-item" href="#">thư viện video</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink4" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            đặt vé
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">thông tin đặt vé</a>
+            <a class="dropdown-item" href="#">vòng bán kết</a>
+            <a class="dropdown-item" href="#">vòng chung kết</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink5" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            đối tác
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">đối tác</a>
+            <a class="dropdown-item" href="#">liên hệ quảng cáo </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="bl-seach">
+          <div class="group-input">
+            <span class="note">tim kiem</span>
+            <div class="enter">
+              <input id="txtSeachFullName" type="text" class="input" placeholder="tim kiem ten ung vien">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5 col-xs-12">
+        <div class="bl-seach">
+          <div class="group-input">
+            <span class="note">Hình ảnh</span>
+            <div class="enter">
+              <select onchange="ChangePictureCat()" id="slPictureCat">
+                <option value="1">Hình đại diện</option>
+                <option value="2">Dạ hội</option>
+                <option value="3">Hình Áo tắm</option>
+                <option value="4">Glam Shot</option>
+                <option value="5">Chân dung</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="avatar" class="Avatar" >
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/Nie.jpg" width="100%">
+          <span class="name">
+          nguyễn thị mai phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>350</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/Ngoc%20Huyen.jpg" width="100%">
+          <span class="name">
+          nguyễn quỳnh
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>125</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/QTH_8636.JPG" width="100%">
+          <span class="name">
+          nguyễn anh
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>130</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/a9399173-cdce-40d0-a451-eb9fd6f52af1.jpg"
+            width="100%">
+          <span class="name">
+          nguyễn đình khải
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>125</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/Thuy%20Trang.jpg" width="100%">
+          <span class="name">
+          trần thị thuỳ trang
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>623</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/Huyen%20Trang.jpg"
+               width="100%">
+          <span class="name">
+          trần thị huyền trang
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>702</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/QTH_8433.JPG" width="100%">
+          <span class="name">
+          nguyễn phạm kim ngân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>146</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/My%20Duyen.jpg"
+            width="100%">
+          <span class="name">
+            trình thị mỹ duyên
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>718</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="gala" class="Gala">
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/321%20(1).jpg" width="100%">
+          <span class="name">
+          Bùi Thị Thảo Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>321</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/501-(1)%20copy.jpg"
+               width="100%">
+          <span class="name">
+          Chế Nguyễn Quỳnh Châu
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>501</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/506_125%20(1).jpg"
+               width="100%">
+          <span class="name">
+          Nguyễn Trần Khánh Vân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>125</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/513_104-(1).jpg"
+            width="100%">
+          <span class="name">
+           Trần Hằng Nga
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>104</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/146.jpg" width="100%">
+          <span class="name">
+          Nguyễn Phạm Kim Ngân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>149</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/433.jpg"
+               width="100%">
+          <span class="name">
+         Võ Thị Minh Thư
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>433</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/308.jpg" width="100%">
+          <span class="name">
+          Nguyễn Thị Hồng Y
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>308</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/404-(1).jpg"
+            width="100%">
+          <span class="name">
+            Lê Anh Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>404</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="swimsuit" class="swimsuit">
+  <div class="row line-contestant">
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b1">
+        <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/433-bi.jpg" width="100%">
+        <span class="name">
+          Bùi Thị Thảo Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>321</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b2">
+        <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/404-bi.jpg"
+             width="100%">
+        <span class="name">
+          Chế Nguyễn Quỳnh Châu
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>501</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b3">
+        <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/249-bi.jpg"
+             width="100%">
+        <span class="name">
+          Nguyễn Trần Khánh Vân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>125</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b4">
+        <img
+          src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/343-bi.jpg"
+          width="100%">
+        <span class="name">
+           Trần Hằng Nga
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>104</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row line-contestant">
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b1">
+        <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/508_121.jpg" width="100%">
+        <span class="name">
+          Nguyễn Phạm Kim Ngân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>149</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b2">
+        <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/unnamed%20(1).jpg"
+             width="100%">
+        <span class="name">
+         Võ Thị Minh Thư
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>433</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b3">
+        <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/406-bi.jpg" width="100%">
+        <span class="name">
+          Nguyễn Thị Hồng Y
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>308</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-12 col-xs-6 col-sm-3">
+      <div class="b4">
+        <img
+          src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/350-bi.jpg"
+          width="100%">
+        <span class="name">
+            Lê Anh Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>404</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="GlamShot" class="GlamShot">
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/104-MU103_109_45ThiSinh_5-output-1.jpg" width="100%">
+          <span class="name">
+          Bùi Thị Thảo Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>321</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/084-MU075_084_45ThiSinh_2-output-1.jpg"
+               width="100%">
+          <span class="name">
+          Chế Nguyễn Quỳnh Châu
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>501</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/102-MU095_102_45ThiSinh_4-output-1.jpg"
+               width="100%">
+          <span class="name">
+          Nguyễn Trần Khánh Vân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>125</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/072-MU065_074_45ThiSinh_1-output-1.jpg"
+            width="100%">
+          <span class="name">
+           Trần Hằng Nga
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>104</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/106-MU103_109_45ThiSinh_5-output-1.jpg" width="100%">
+          <span class="name">
+          Nguyễn Phạm Kim Ngân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>149</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/096-MU095_102_45ThiSinh_4-output-1.jpg"
+               width="100%">
+          <span class="name">
+         Võ Thị Minh Thư
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>433</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/087-MU085_094_45ThiSinh_3-output-1.jpg" width="100%">
+          <span class="name">
+          Nguyễn Thị Hồng Y
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>308</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/068-MU065_074_45ThiSinh_1-output-1.jpg"
+            width="100%">
+          <span class="name">
+            Lê Anh Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>404</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portrait" class="portrait">
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/433-(1).jpg" width="100%">
+          <span class="name">
+          Bùi Thị Thảo Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>321</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/502_135-(1).jpg"
+               width="100%">
+          <span class="name">
+          Chế Nguyễn Quỳnh Châu
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>501</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/404.jpg"
+               width="100%">
+          <span class="name">
+          Nguyễn Trần Khánh Vân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>125</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/513_104%20(1).jpg"
+            width="100%">
+          <span class="name">
+           Trần Hằng Nga
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>104</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row line-contestant">
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b1">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/501-.jpg" width="100%">
+          <span class="name">
+          Nguyễn Phạm Kim Ngân
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>149</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b2">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/406-(1).jpg"
+               width="100%">
+          <span class="name">
+         Võ Thị Minh Thư
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>433</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b3">
+          <img src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/350-(1).jpg" width="100%">
+          <span class="name">
+          Nguyễn Thị Hồng Y
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>308</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-6 col-sm-3">
+        <div class="b4">
+          <img
+            src="http://hoahauhoanvuvietnam.com/FileStorage/Candidate/Small_thumbnail/501_137-(1).jpg"
+            width="100%">
+          <span class="name">
+            Lê Anh Phương
+          <br>
+          <label class="sub-name"> số báo danh</label>
+          <label>404</label>
+          <br>
+          <label class="sub-name">số lượt bình chọn</label>
+          <label>0(0%)</label>
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--<script>-->
+  <!--if ($('.menu_fixer').length) {-->
+  <!--var stickyNavTop = $('.menu_fixer').offset();-->
+  <!--var stickyNav = function () {-->
+  <!--var scrollTop = $(window).scrollTop(); // our current vertical position from the top-->
+  <!--if (scrollTop > (stickyNavTop.top)) {-->
+  <!--$('.menu_fixer').css({-->
+  <!--top: '0',-->
+  <!--left: stickyNavTop.left,-->
+  <!--width: '1110px',-->
+  <!--margin: '0',-->
+  <!--'z-index': 10-->
+  <!--});-->
+  <!--$('.menu_fixer').css('position', 'fixed');-->
+  <!--} else {-->
+  <!--$('.menu_fixer').removeAttr('style');-->
+  <!--}-->
+  <!--};-->
+  <!--stickyNav();-->
+  <!--$(window).scroll(function () {-->
+  <!--stickyNav();-->
+  <!--});-->
+  <!--}-->
+  <!--</script>-->
+</body>
+</html>

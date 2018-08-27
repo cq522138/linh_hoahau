@@ -1,0 +1,105 @@
+.menu{
+  background: #542670 !important;
+  text-transform: uppercase;
+}
+.menu a{
+  color: #f1f1f1; !important;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  background: rgba(84, 38, 112, 0.7);
+}
+.nav-item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col-xs-12{
+  width: 100%;
+}
+
+
+.group-input .note{
+  color: black;
+  font-size: 14px;
+  font-family: "OpenSans-Semibold";
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  float: left;
+}
+
+.group-input .enter{
+  font-size: 14px;
+  display: inline-block;
+  width: 80%;
+  float: left;
+}
+
+
+.group-input .enter .id{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #542670;
+  width: 100%;
+  padding: 0 10px 10px 10px;
+  background: transparent;
+}
+
+.group-input .note {
+  color: #000;
+  font-size: 14px;
+  font-family: "OpenSans-Semibold";
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  float: left;
+}
+
+ .name{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  color: #000;
+  padding: 20px 20px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-weight: 600;
+  opacity: 1;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+  z-index: 20;
+}
+
+.name:hover{
+  background: rgba(43, 36, 66, 0.5);
+}
+
+.b1{
+  position: relative;
+  overflow: hidden;
+}
+
+.b2{
+  position: relative;
+  overflow: hidden;
+}
+
+.b3{
+  position: relative;
+  overflow: hidden;
+}
+
+.b4{
+  position: relative;
+  overflow: hidden;
+}
+
+#gala {
+  display: none;
+}
+
+

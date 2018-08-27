@@ -5,6 +5,7 @@
 .menu a{
   color: #f1f1f1; !important;
 }
+
 .dropdown:hover .dropdown-menu{
   display: block;
 }
